@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "robot_control"
+version = "0.1.0"
+description = ""
+authors = ["daniloinacio <daniloinaciossilva@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+py-trees = "^2.2.3"
+numpy = "^1.24.3"
+netifaces = "^0.11.0"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
